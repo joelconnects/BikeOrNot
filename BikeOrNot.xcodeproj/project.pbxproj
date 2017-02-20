@@ -22,8 +22,6 @@
 		5D7365D61E3BDE3500A672F3 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7365D51E3BDE3500A672F3 /* LoaderView.swift */; };
 		5DCBF2291E42861600667E31 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBF2281E42861600667E31 /* DataPoint.swift */; };
 		5DCBF22C1E43EF6000667E31 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBF22B1E43EF6000667E31 /* Networking.swift */; };
-		5DCBF2321E43F5F300667E31 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBF2311E43F5F300667E31 /* Robot.swift */; };
-		5DCBF2341E44143D00667E31 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBF2331E44143D00667E31 /* Error.swift */; };
 		5DD59F2B1E294B0C004DEDE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD59F2A1E294B0C004DEDE0 /* AppDelegate.swift */; };
 		5DD59F301E294B0C004DEDE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD59F2E1E294B0C004DEDE0 /* Main.storyboard */; };
 		5DD59F321E294B0C004DEDE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD59F311E294B0C004DEDE0 /* Assets.xcassets */; };
@@ -75,8 +73,6 @@
 		5D7365D51E3BDE3500A672F3 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		5DCBF2281E42861600667E31 /* DataPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
 		5DCBF22B1E43EF6000667E31 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
-		5DCBF2311E43F5F300667E31 /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
-		5DCBF2331E44143D00667E31 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		5DD59F271E294B0C004DEDE0 /* BikeOrNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeOrNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD59F2A1E294B0C004DEDE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DD59F2F1E294B0C004DEDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -165,18 +161,8 @@
 				5DCBF22B1E43EF6000667E31 /* Networking.swift */,
 				5D7365CD1E3AE39A00A672F3 /* DarkSkyAPIClient.swift */,
 				5D7365CE1E3AE39A00A672F3 /* NetworkOperationsManager.swift */,
-				5DCBF22A1E43EF4A00667E31 /* API */,
 			);
 			name = Networking;
-			sourceTree = "<group>";
-		};
-		5DCBF22A1E43EF4A00667E31 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				5DCBF2311E43F5F300667E31 /* Robot.swift */,
-				5DCBF2331E44143D00667E31 /* Error.swift */,
-			);
-			name = API;
 			sourceTree = "<group>";
 		};
 		5DD59F1E1E294B0C004DEDE0 = {
@@ -424,7 +410,6 @@
 				5D7365D41E3AE3B900A672F3 /* LocationManager.swift in Sources */,
 				5DCBF22C1E43EF6000667E31 /* Networking.swift in Sources */,
 				5D7365C61E3AC65800A672F3 /* UILabel.swift in Sources */,
-				5DCBF2341E44143D00667E31 /* Error.swift in Sources */,
 				5DD59F661E2C0EF4004DEDE0 /* UIColor.swift in Sources */,
 				5DD59F5C1E2C06C5004DEDE0 /* MainViewController.swift in Sources */,
 				5DD59F641E2C0EF4004DEDE0 /* Date.swift in Sources */,
@@ -438,7 +423,6 @@
 				5D7365B91E3816FF00A672F3 /* HourlyCollectionView.swift in Sources */,
 				5DD59F2B1E294B0C004DEDE0 /* AppDelegate.swift in Sources */,
 				5D7365CF1E3AE39A00A672F3 /* DarkSkyAPIClient.swift in Sources */,
-				5DCBF2321E43F5F300667E31 /* Robot.swift in Sources */,
 				5D7365D31E3AE3B900A672F3 /* Secrets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
